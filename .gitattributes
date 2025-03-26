@@ -1,1 +1,1 @@
-public/ello-app.apk filter=lfs diff=lfs merge=lfs -text
+ello-app.apk filter=lfs diff=lfs merge=lfs -text
