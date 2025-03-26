@@ -2,7 +2,7 @@ import React from "react";
 
 export const DownloadIcon = ({ color }) => {
   const downloadAPK = () => {
-    const apkPath = "../../src/assets/ello-app.apk";
+    const apkPath = "/ello-app.apk"; // Direct path from `public/`
     const link = document.createElement("a");
     link.href = apkPath;
     link.download = "ello-app.apk";
