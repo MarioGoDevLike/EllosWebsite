@@ -5,7 +5,7 @@ export const DownloadIcon = ({ color }) => {
     const apkPath = "./ello-app.apk";
     const link = document.createElement("a");
     link.href = apkPath;
-    link.download = "ello-app.apk";
+    link.download = "./ello-app.apk";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
