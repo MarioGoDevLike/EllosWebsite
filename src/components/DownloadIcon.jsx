@@ -2,10 +2,10 @@ import React from "react";
 
 export const DownloadIcon = ({ color }) => {
   const downloadAPK = () => {
-    const apkPath = "/ello-app.apk"; // Serve from public/
+    const apkPath = "/ello-app.apk";
     const link = document.createElement("a");
     link.href = apkPath;
-    link.download = "ello-app.apk"; // Set correct filename
+    link.download = "ello-app.apk";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

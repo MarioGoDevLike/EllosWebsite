@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "../../src/assets/ello_logo.png"; // Import logo
+import logo from "../../src/assets/ello_logo.png";
 import { DownloadIcon } from "../components/DownloadIcon";
-import { FaAndroid, FaApple } from "react-icons/fa"; // Import icons
+import { FaAndroid } from "react-icons/fa"; // Import icons
 
 export const MainScreen = () => {
   return (
@@ -51,12 +51,12 @@ export const MainScreen = () => {
           </div>
         </div>
 
-        <div style={{ textAlign: "center" }}>
+        {/* <div style={{ textAlign: "center" }}>
           <FaApple size={40} color="#3C768A" />
           <div style={{ marginTop: "10px" }}>
             <DownloadIcon color="#3C768A" />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
